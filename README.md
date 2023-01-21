@@ -33,7 +33,7 @@ patinopher@gmail.com, or visit my GitHub account at
 
 ## Features
 
- Description, Table of Contents, Installation, Usage, Features,Contributors, Test, Questions.
+ Description, Table of Contents, Usage, License, Contributors, Questions, Features.
 
 ## How to Contribute
 
