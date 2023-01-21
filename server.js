@@ -31,7 +31,7 @@ app.get("/api/notes", (req, res) =>
 app.post("/api/notes", (req, res) => {
     const notes = JSON.parse(fs.readFileSync("./db/db.json"));
     const newNotes = req.body;
-    newNotes.id = uuid.v4();
+    newNotes.id = uuid.v4(); // add unique id to each note
     notes.push(newNotes);
     fs.writeFileSync("./db/db.json", JSON.stringify(notes))
     res.json(notes);
@@ -40,9 +40,9 @@ app.post("/api/notes", (req, res) => {
 // ----Deleting notes
 app.delete("/api/notes/:id", (req, res) => {
     const notes = JSON.parse(fs.readFileSync("./db/db.json"));
-    const delNote = notes.filter((rmvNote) => rmvNote.id !== req.params.id);
-    fs.writeFileSync("./db/db.json", JSON.stringify(delNote));
-    res.json(delNote);
+    const dltNote = notes.filter((rmvNote) => rmvNote.id !== req.params.id); // deletes a specific note
+    fs.writeFileSync("./db/db.json", JSON.stringify(dltNote));
+    res.json(dltNote);
 })
 
 
