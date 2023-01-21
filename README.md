@@ -15,6 +15,7 @@
 ## Usage
 
 You can see a screenshot here: [Screenshot](https://github.com/pherpat/Note-Taking-App/tree/main/Assets)
+Deployed live app on Heroku here: [Visit Site](https://blooming-lowlands-65837.herokuapp.com/)
 
 ## License
 
