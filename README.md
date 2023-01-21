@@ -14,10 +14,7 @@
 
 ## Usage
 
-You can see a screenshot here: [Screenshot](https://github.com/pherpat/Team-Profile-Generator/blob/main/assets/Team-Profile-Generator:%20Screenschot.png)
-
-You can see the walkthrough video here: [Video Link](https://drive.google.com/file/d/1LJZeLzj1QggwzGO1XDyppMwEgsIZUGIM/view)
- 
+You can see a screenshot here: [Screenshot](https://github.com/pherpat/Note-Taking-App/tree/main/Assets)
 
 ## License
 
